@@ -1,0 +1,168 @@
+.app {
+  min-height: 100vh;
+  background-color: #ede9fe;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  justify-content: center;
+}
+
+.tala-dropdown select{
+ position: absolute;
+ top: 20px;
+ padding: 6px 60px;
+ cursor: pointer;
+ background-color: white;
+ color: black;
+ border-radius: 20px;
+ border: none;
+}
+.handSigns{
+  background-color: white;
+  margin-top: 10px;
+  height: 350px;
+  width: 450px;
+  border-radius: 20px;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap : 50px;
+}
+.beat-bars{
+  display: flex;
+  flex-direction: row;
+  gap : 50px;
+  justify-content: center;  
+  margin-top: 40px;
+  align-items:flex-end;
+}
+.bar{
+ width: 10px;
+background-color: #ccc;
+border-radius: 10px;
+
+
+}
+
+.bar-active {
+background-color: #7C3AED;
+border-radius: 10px;
+width: 10px;
+
+}
+.bpm-input{
+  border : none;
+  background : transparent;
+  color : black;
+  font-size : 70px;
+  width : 130px;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+ 
+}
+
+.bpm-card {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 30px;
+  padding: 40px;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto
+
+  
+}
+
+.inner-bpm-row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.bpm-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.bpm-text{
+  font-size: 50px;
+  color: black;
+}
+
+.start-btn {
+  background-color: #7C3AED;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 24px;
+  border: none;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  cursor: pointer;
+  box-shadow : 0px 1px 2px 0px #a880e8;
+}
+.start-btn:hover {
+background-color: #5b1dbf;
+
+}
+.stop-btn{
+  background-color: #dbdadd;
+  color:black;
+  border-radius: 20px;
+  border : none;
+  padding : 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.reset-btn {
+ background-color: #dbdadd;
+  color: black;
+  border-radius: 20px;
+  border : none;
+  padding : 10px ;
+  font-family:Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.increase-btn{
+background-color: #dbdadd;
+color: black;
+border-radius: 50%;
+width : 80px;
+height : 80px;
+border: none;
+font-size: 30px;
+
+}
+
+.decrease-btn{
+background-color: #dbdadd;
+color:black;
+border-radius: 50%;
+width : 80px;
+height : 80px;
+border: none;
+font-size: 30px;
+text-align: center;
+}
+
+.bpm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap : 25px;
+  margin-bottom : 30px
+  
+}
+/*.bpm-indicator{
+  font-size: 70px;
+  color: black;
+}*/
